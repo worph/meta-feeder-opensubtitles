@@ -1,0 +1,161 @@
+{
+  "total_pages": 1,
+  "total_count": 4,
+  "per_page": 50,
+  "page": 1,
+  "data": [
+    {
+      "id": "10078344",
+      "type": "subtitle",
+      "attributes": {
+        "subtitle_id": "10078344",
+        "language": "pl",
+        "download_count": 23,
+        "new_download_count": 8,
+        "hearing_impaired": false,
+        "hd": false,
+        "fps": 0.0,
+        "from_trusted": false,
+        "foreign_parts_only": false,
+        "upload_date": "2024-06-19T07:54:22Z",
+        "ai_translated": false,
+        "nb_cd": 2,
+        "machine_translated": false,
+        "release": "Armitage III Dual Matrix CD 1",
+        "legacy_subtitle_id": 10206883,
+        "feature_details": {
+          "feature_id": 517502,
+          "feature_type": "Movie",
+          "year": 2002,
+          "title": "Armitage: Dual Matrix",
+          "movie_name": "2002 - Armitage: Dual Matrix",
+          "imdb_id": 303678,
+          "tmdb_id": 21769
+        },
+        "files": [
+          {
+            "file_id": 10986218,
+            "cd_number": 1,
+            "file_name": "Armitage III Dual Matrix CD 1"
+          },
+          {
+            "file_id": 10986219,
+            "cd_number": 2,
+            "file_name": "Armitage III Dual Matrix CD 2"
+          }
+        ]
+      }
+    },
+    {
+      "id": "10078343",
+      "type": "subtitle",
+      "attributes": {
+        "subtitle_id": "10078343",
+        "language": "ar",
+        "download_count": 24,
+        "new_download_count": 34,
+        "hearing_impaired": false,
+        "hd": false,
+        "fps": 0.0,
+        "from_trusted": false,
+        "foreign_parts_only": false,
+        "upload_date": "2024-07-18T08:00:49Z",
+        "ai_translated": false,
+        "nb_cd": 1,
+        "machine_translated": false,
+        "release": "[Kaito] Armitage: Dual Matrix [DVD][Kaito]",
+        "legacy_subtitle_id": 11930992,
+        "feature_details": {
+          "feature_id": 517502,
+          "feature_type": "Movie",
+          "year": 2002,
+          "title": "Armitage: Dual Matrix",
+          "movie_name": "2002 - Armitage: Dual Matrix",
+          "imdb_id": 303678,
+          "tmdb_id": 21769
+        },
+        "files": [
+          {
+            "file_id": 10986217,
+            "cd_number": 1,
+            "file_name": "KaitoFansub_Armitage_III_Dual_Matrix_Movie"
+          }
+        ]
+      }
+    },
+    {
+      "id": "5804989",
+      "type": "subtitle",
+      "attributes": {
+        "subtitle_id": "5804989",
+        "language": "es",
+        "download_count": 129,
+        "new_download_count": 143,
+        "hearing_impaired": false,
+        "hd": true,
+        "fps": 29.97,
+        "from_trusted": true,
+        "foreign_parts_only": false,
+        "upload_date": "2021-06-04T17:23:32Z",
+        "ai_translated": false,
+        "nb_cd": 1,
+        "machine_translated": false,
+        "release": "Armitage III- Dual-Matrix (2002)",
+        "legacy_subtitle_id": 8696238,
+        "feature_details": {
+          "feature_id": 517502,
+          "feature_type": "Movie",
+          "year": 2002,
+          "title": "Armitage: Dual Matrix",
+          "movie_name": "2002 - Armitage: Dual Matrix",
+          "imdb_id": 303678,
+          "tmdb_id": 21769
+        },
+        "files": [
+          {
+            "file_id": 6820144,
+            "cd_number": 1,
+            "file_name": "Armitage III- Dual-Matrix (2002).es"
+          }
+        ]
+      }
+    },
+    {
+      "id": "5804815",
+      "type": "subtitle",
+      "attributes": {
+        "subtitle_id": "5804815",
+        "language": "en",
+        "download_count": 486,
+        "new_download_count": 162,
+        "hearing_impaired": false,
+        "hd": true,
+        "fps": 29.97,
+        "from_trusted": true,
+        "foreign_parts_only": false,
+        "upload_date": "2021-06-04T16:57:20Z",
+        "ai_translated": false,
+        "nb_cd": 1,
+        "machine_translated": false,
+        "release": "Armitage III- Dual-Matrix (2002)",
+        "legacy_subtitle_id": 8696082,
+        "feature_details": {
+          "feature_id": 517502,
+          "feature_type": "Movie",
+          "year": 2002,
+          "title": "Armitage: Dual Matrix",
+          "movie_name": "2002 - Armitage: Dual Matrix",
+          "imdb_id": 303678,
+          "tmdb_id": 21769
+        },
+        "files": [
+          {
+            "file_id": 6820033,
+            "cd_number": 1,
+            "file_name": "Armitage III- Dual-Matrix (2002).eng"
+          }
+        ]
+      }
+    }
+  ]
+}

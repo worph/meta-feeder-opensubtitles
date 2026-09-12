@@ -1,0 +1,124 @@
+{
+  "total_pages": 1,
+  "total_count": 3,
+  "per_page": 50,
+  "page": 1,
+  "data": [
+    {
+      "id": "11749486",
+      "type": "subtitle",
+      "attributes": {
+        "subtitle_id": "11749486",
+        "language": "fr",
+        "download_count": 57,
+        "new_download_count": 160,
+        "hearing_impaired": false,
+        "hd": true,
+        "fps": 0.0,
+        "from_trusted": false,
+        "foreign_parts_only": false,
+        "upload_date": "2026-07-10T15:36:25Z",
+        "ai_translated": false,
+        "nb_cd": 1,
+        "machine_translated": false,
+        "release": "The Matrix (1999) {imdb-tt0133093} - [AMZN][WEBDL-1080p][EAC3 5.1][h264]-GPRS",
+        "legacy_subtitle_id": 13894449,
+        "feature_details": {
+          "feature_id": 646193,
+          "feature_type": "Movie",
+          "year": 1999,
+          "title": "The Matrix",
+          "movie_name": "1999 - The Matrix",
+          "imdb_id": 133093,
+          "tmdb_id": 603
+        },
+        "files": [
+          {
+            "file_id": 12658754,
+            "cd_number": 1,
+            "file_name": "The Matrix (1999) {imdb-tt0133093} - [AMZN][WEBDL-1080p][EAC3 5.1][h264]-GPRS.fr"
+          }
+        ]
+      }
+    },
+    {
+      "id": "8520404",
+      "type": "subtitle",
+      "attributes": {
+        "subtitle_id": "8520404",
+        "language": "fr",
+        "download_count": 275,
+        "new_download_count": 348,
+        "hearing_impaired": false,
+        "hd": false,
+        "fps": 0.0,
+        "from_trusted": false,
+        "foreign_parts_only": false,
+        "upload_date": "2024-07-20T18:28:59Z",
+        "ai_translated": false,
+        "nb_cd": 2,
+        "machine_translated": false,
+        "release": "The.Matrix.Screener-VCD-EUROPE",
+        "legacy_subtitle_id": 12104394,
+        "feature_details": {
+          "feature_id": 646193,
+          "feature_type": "Movie",
+          "year": 1999,
+          "title": "The Matrix",
+          "movie_name": "1999 - The Matrix",
+          "imdb_id": 133093,
+          "tmdb_id": 603
+        },
+        "files": [
+          {
+            "file_id": 9443700,
+            "cd_number": 1,
+            "file_name": "The Matrix Screener part 1.PAL.FR"
+          },
+          {
+            "file_id": 9443701,
+            "cd_number": 2,
+            "file_name": "The Matrix Screener part 2.PAL.FR"
+          }
+        ]
+      }
+    },
+    {
+      "id": "8234814",
+      "type": "subtitle",
+      "attributes": {
+        "subtitle_id": "8234814",
+        "language": "fr",
+        "download_count": 293,
+        "new_download_count": 221,
+        "hearing_impaired": false,
+        "hd": false,
+        "fps": 0.0,
+        "from_trusted": false,
+        "foreign_parts_only": false,
+        "upload_date": "2024-07-09T04:00:21Z",
+        "ai_translated": false,
+        "nb_cd": 1,
+        "machine_translated": false,
+        "release": "????1.The.Matrix.1.1999.UC.DVDRip.XViD.AC3.5.1CH.CD3-WAF.FR.PAL",
+        "legacy_subtitle_id": 11181831,
+        "feature_details": {
+          "feature_id": 646193,
+          "feature_type": "Movie",
+          "year": 1999,
+          "title": "The Matrix",
+          "movie_name": "1999 - The Matrix",
+          "imdb_id": 133093,
+          "tmdb_id": 603
+        },
+        "files": [
+          {
+            "file_id": 9159988,
+            "cd_number": 1,
+            "file_name": "1.The.Matrix.1.1999.UC.DVDRip.XViD.AC3.5.1CH.CD3-WAF.FR.PAL"
+          }
+        ]
+      }
+    }
+  ]
+}

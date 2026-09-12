@@ -1,0 +1,96 @@
+{
+  "total_pages": 1,
+  "total_count": 2,
+  "per_page": 50,
+  "page": 1,
+  "data": [
+    {
+      "id": "3097032",
+      "type": "subtitle",
+      "attributes": {
+        "subtitle_id": "3097032",
+        "language": "en",
+        "download_count": 321046,
+        "new_download_count": 3344,
+        "hearing_impaired": true,
+        "hd": true,
+        "fps": 23.976,
+        "from_trusted": false,
+        "foreign_parts_only": false,
+        "upload_date": "2014-02-28T09:55:32Z",
+        "ai_translated": false,
+        "nb_cd": 1,
+        "machine_translated": false,
+        "release": "Vikings.S02E01.HDTV.x264-EXCELLENCE",
+        "legacy_subtitle_id": 5562812,
+        "feature_details": {
+          "feature_id": 345772,
+          "feature_type": "Episode",
+          "year": 2014,
+          "title": "Brother's War",
+          "movie_name": "Vikings - S02E01  Brother's War",
+          "imdb_id": 3358048,
+          "tmdb_id": 970845,
+          "season_number": 2,
+          "episode_number": 1,
+          "parent_imdb_id": 2306299,
+          "parent_title": "Vikings",
+          "parent_tmdb_id": 44217,
+          "parent_feature_id": 12400
+        },
+        "files": [
+          {
+            "file_id": 3166793,
+            "cd_number": 1,
+            "file_name": "Vikings.S02E01.HDTV.x264-EXCELLENCE"
+          }
+        ],
+        "moviehash_match": true
+      }
+    },
+    {
+      "id": "7508772",
+      "type": "subtitle",
+      "attributes": {
+        "subtitle_id": "7508772",
+        "language": "en",
+        "download_count": 18479,
+        "new_download_count": 764,
+        "hearing_impaired": false,
+        "hd": false,
+        "fps": 23.976,
+        "from_trusted": false,
+        "foreign_parts_only": false,
+        "upload_date": "2009-07-24T13:31:10Z",
+        "ai_translated": false,
+        "nb_cd": 1,
+        "machine_translated": false,
+        "release": "DVDRip",
+        "legacy_subtitle_id": 3538948,
+        "feature_details": {
+          "feature_id": 1769142,
+          "feature_type": "Episode",
+          "year": 2002,
+          "title": "Jurassic Bark",
+          "movie_name": "Futurama - S05E02  Jurassic Bark",
+          "imdb_id": 584444,
+          "tmdb_id": 1108227,
+          "season_number": 5,
+          "episode_number": 2,
+          "parent_imdb_id": 149460,
+          "parent_title": "Futurama",
+          "parent_tmdb_id": 615,
+          "parent_feature_id": 1768889
+        },
+        "files": [
+          {
+            "file_id": 8439091,
+            "cd_number": 1,
+            "file_name": "Futurama - 5x02 - Jurassic Bark"
+          }
+        ],
+        "moviehash_match": true
+      }
+    }
+  ]
+}

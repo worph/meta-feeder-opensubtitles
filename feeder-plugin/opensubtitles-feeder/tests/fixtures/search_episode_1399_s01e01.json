@@ -1,0 +1,137 @@
+{
+  "total_pages": 1,
+  "total_count": 3,
+  "per_page": 50,
+  "page": 1,
+  "data": [
+    {
+      "id": "11957644",
+      "type": "subtitle",
+      "attributes": {
+        "subtitle_id": "11957644",
+        "language": "fa",
+        "download_count": 5,
+        "new_download_count": 1,
+        "hearing_impaired": false,
+        "hd": true,
+        "fps": 0.0,
+        "from_trusted": false,
+        "foreign_parts_only": false,
+        "upload_date": "2026-09-05T16:45:23Z",
+        "ai_translated": false,
+        "nb_cd": 1,
+        "machine_translated": false,
+        "release": "Game.of.Thrones.S01E01.Winter.Is.Coming.REPACK.2160p.MAX.WEB-DL.TrueHD.7.1.Atmos.DV.HDR.H.265-Kitsune",
+        "legacy_subtitle_id": 14026000,
+        "feature_details": {
+          "feature_id": 278305,
+          "feature_type": "Episode",
+          "year": 2011,
+          "title": "Winter Is Coming",
+          "movie_name": "Game of Thrones - S01E01  Winter Is Coming",
+          "imdb_id": 1480055,
+          "tmdb_id": 63056,
+          "season_number": 1,
+          "episode_number": 1,
+          "parent_imdb_id": 944947,
+          "parent_title": "Game of Thrones",
+          "parent_tmdb_id": 1399,
+          "parent_feature_id": 10891
+        },
+        "files": [
+          {
+            "file_id": 12838679,
+            "cd_number": 1,
+            "file_name": "Game.of.Thrones.S01E01.Winter.Is.Coming.REPACK.2160p.MAX.WEB-DL.TrueHD.7.1.Atmos.DV.HDR.H.265-Kitsune"
+          }
+        ]
+      }
+    },
+    {
+      "id": "11785541",
+      "type": "subtitle",
+      "attributes": {
+        "subtitle_id": "11785541",
+        "language": "en",
+        "download_count": 141,
+        "new_download_count": 571,
+        "hearing_impaired": true,
+        "hd": false,
+        "fps": 29.97,
+        "from_trusted": false,
+        "foreign_parts_only": false,
+        "upload_date": "2026-08-01T04:06:10Z",
+        "ai_translated": false,
+        "nb_cd": 1,
+        "machine_translated": false,
+        "release": "Game of Thrones S01E01 Winter Is Coming",
+        "legacy_subtitle_id": 13943373,
+        "feature_details": {
+          "feature_id": 278305,
+          "feature_type": "Episode",
+          "year": 2011,
+          "title": "Winter Is Coming",
+          "movie_name": "Game of Thrones - S01E01  Winter Is Coming",
+          "imdb_id": 1480055,
+          "tmdb_id": 63056,
+          "season_number": 1,
+          "episode_number": 1,
+          "parent_imdb_id": 944947,
+          "parent_title": "Game of Thrones",
+          "parent_tmdb_id": 1399,
+          "parent_feature_id": 10891
+        },
+        "files": [
+          {
+            "file_id": 12694986,
+            "cd_number": 1,
+            "file_name": "Game of Thrones S01E01 Winter Is Coming"
+          }
+        ]
+      }
+    },
+    {
+      "id": "11733097",
+      "type": "subtitle",
+      "attributes": {
+        "subtitle_id": "11733097",
+        "language": "es",
+        "download_count": 111,
+        "new_download_count": 173,
+        "hearing_impaired": false,
+        "hd": true,
+        "fps": 0.0,
+        "from_trusted": false,
+        "foreign_parts_only": false,
+        "upload_date": "2026-06-25T15:42:00Z",
+        "ai_translated": false,
+        "nb_cd": 1,
+        "machine_translated": false,
+        "release": "Game of Thrones S01E01 1080p AMZN playWEB",
+        "legacy_subtitle_id": 13859500,
+        "feature_details": {
+          "feature_id": 278305,
+          "feature_type": "Episode",
+          "year": 2011,
+          "title": "Winter Is Coming",
+          "movie_name": "Game of Thrones - S01E01  Winter Is Coming",
+          "imdb_id": 1480055,
+          "tmdb_id": 63056,
+          "season_number": 1,
+          "episode_number": 1,
+          "parent_imdb_id": 944947,
+          "parent_title": "Game of Thrones",
+          "parent_tmdb_id": 1399,
+          "parent_feature_id": 10891
+        },
+        "files": [
+          {
+            "file_id": 12642661,
+            "cd_number": 1,
+            "file_name": "Game of Thrones S01E01 1080p AMZN playWEB"
+          }
+        ]
+      }
+    }
+  ]
+}

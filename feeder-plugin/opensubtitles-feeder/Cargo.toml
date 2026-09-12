@@ -1,0 +1,39 @@
+[package]
+name = "opensubtitles-feeder"
+version = "0.1.0"
+edition.workspace = true
+rust-version.workspace = true
+license.workspace = true
+publish = false
+
+# OpenSubtitles subtitle search. Answers `fileType:subtitle` queries — keyword
+# and id-anchored — with `provider-file` (0x100A) locator records. Search only:
+# no download, no quota spend. Retrieval is meta-share's job.
+
+[lib]
+name = "opensubtitles_feeder"
+path = "src/lib.rs"
+
+[[bin]]
+name = "opensubtitles-feeder"
+path = "src/main.rs"
+
+[dependencies]
+# Pinned by TAG, never by path. A path dep resolves OUTSIDE this repo, and this
+# repo is the Docker build context — see meta-feeder-anilist's manifest.
+meta-feeder-sdk = { git = "https://github.com/worph/meta-feeder-sdk", tag = "v1.2.1" }
+
+tokio = { version = "1.40", features = ["full"] }
+axum = { version = "0.7", features = ["json"] }
+anyhow = "1"
+async-trait = "0.1"
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+reqwest = { version = "0.12", features = ["json", "rustls-tls"], default-features = false }
+tracing = "0.1"
+tracing-subscriber = { version = "0.3", features = ["env-filter", "fmt"] }
+
+[dev-dependencies]
+wiremock = "0.6"
+tempfile = "3"
+tokio = { version = "1.40", features = ["full", "test-util"] }
