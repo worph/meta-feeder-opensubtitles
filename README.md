@@ -104,8 +104,9 @@ docker build -f feeder-plugin/opensubtitles-feeder/Dockerfile -t meta-feeder-ope
 `tests/contract.rs` drives the real SDK router against a wiremock OpenSubtitles,
 using fixtures captured from the live API.
 
-The SDK is pinned by tag (`v1.3.0`). Until that tag is pushed, cargo cannot
-resolve it — not even under a `[patch]` override — so the recipe above fails. To
+The SDK is pinned by tag (`v1.2.2`). An SDK change is invisible here until it
+is tagged and pushed, and cargo cannot resolve an unpushed tag — not even under a
+`[patch]` override — so the recipe above cannot test one. To
 verify against a local SDK checkout, run it on a scratch copy with the
 dependency swapped for a path (never commit that form):
 
