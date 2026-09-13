@@ -1,10 +1,13 @@
-//! `opensubtitles-feeder` — subtitle search over OpenSubtitles.
+//! `opensubtitles-feeder` — subtitle search and download over OpenSubtitles.
 //!
-//! A **sidecar** tier: it answers "which subtitles exist for X", never "give me
-//! the bytes". Each result is one subtitle *file*, addressed by a
-//! `provider-file` locator (`0x100A`, `docs/cid-formats.md` §8) that embeds
-//! `("opensubtitles", "file:<file_id>")`. meta-share resolves that locator later;
-//! nothing here downloads, so searching never spends the account's download quota.
+//! A **sidecar** tier. Search answers "which subtitles exist for X": each result
+//! is one subtitle *file*, addressed by a `provider-file` locator (`0x100A`,
+//! `docs/cid-formats.md` §8) that embeds `("opensubtitles", "file:<file_id>")`.
+//! Searching never spends the account's download quota.
+//!
+//! Redeeming a locator — `POST /compute` with the cid, which the gateway sends
+//! on a real play — logs in and calls `/download`, spending one unit of quota;
+//! the gateway stores the bytes so each file is downloaded once.
 //!
 //! ## The contracts that must not drift
 //!

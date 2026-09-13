@@ -138,7 +138,7 @@ fn title_for(a: &OsAttributes, fd: &FeatureDetails, file: &OsFile) -> Option<Str
     }
 }
 
-fn extension_of(name: &str) -> Option<&'static str> {
+pub(crate) fn extension_of(name: &str) -> Option<&'static str> {
     let (_, ext) = name.rsplit_once('.')?;
     let ext = ext.to_ascii_lowercase();
     SUBTITLE_EXTENSIONS.iter().copied().find(|e| *e == ext)

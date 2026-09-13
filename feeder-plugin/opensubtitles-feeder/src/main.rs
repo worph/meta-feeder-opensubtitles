@@ -2,13 +2,15 @@
 //!
 //! Serves `fileType:subtitle`. Needs an OpenSubtitles API key (config page or
 //! `OPENSUBTITLES_API_KEY`); without one it stays registered but degraded and
-//! answers every query with nothing.
+//! answers every query with nothing. An account login additionally lets the
+//! gateway redeem (download) subtitle files.
 //!
 //! Env:
 //! - `META_FEEDER_HTTP_LISTEN`  — listen addr (default `0.0.0.0:8080`)
 //! - `META_FEEDER_STATE_DIR`    — per-plugin cache root (default `/data/meta-feeder`)
 //! - `OPENSUBTITLES_API_KEY`    — seed API key (the config page overrides it)
 //! - `OPENSUBTITLES_USER_AGENT` — seed User-Agent (OpenSubtitles wants `App vX.Y`)
+//! - `OPENSUBTITLES_USERNAME` / `OPENSUBTITLES_PASSWORD` — seed account login (downloads)
 //! - `RUST_LOG`                 — tracing filter (default `info`)
 
 use std::net::SocketAddr;

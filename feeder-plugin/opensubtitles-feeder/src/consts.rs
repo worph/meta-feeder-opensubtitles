@@ -32,6 +32,22 @@ pub(crate) const HTTP_TIMEOUT_SECS: u64 = 20;
 /// and download counts, and download count is half of the ranking.
 pub(crate) const SEARCH_CACHE_TTL_SECS: u64 = 24 * 60 * 60;
 
+/// `/files/plugin/<PACKAGE>/` — where the gateway stores downloaded subtitles.
+pub const PACKAGE: &str = "meta-feeder-opensubtitles";
+
+/// `retry_after_s` when the download quota is spent and OpenSubtitles gave no
+/// parseable reset time. The quota is daily.
+pub(crate) const DEFAULT_QUOTA_RETRY_SECS: u32 = 3600;
+
+/// A "subtitle" shorter than this is an error page or an empty file, not a
+/// subtitle — refuse it rather than seed it to the mesh.
+pub(crate) const MIN_SUBTITLE_BYTES: usize = 10;
+
+/// Extension used when the downloaded file name has no known subtitle suffix.
+pub(crate) const DEFAULT_SUBTITLE_EXTENSION: &str = "srt";
+
 /// Env seeds; the config page's saved values win over them.
 pub(crate) const ENV_API_KEY: &str = "OPENSUBTITLES_API_KEY";
 pub(crate) const ENV_USER_AGENT: &str = "OPENSUBTITLES_USER_AGENT";
+pub(crate) const ENV_USERNAME: &str = "OPENSUBTITLES_USERNAME";
+pub(crate) const ENV_PASSWORD: &str = "OPENSUBTITLES_PASSWORD";
